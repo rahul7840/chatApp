@@ -1,0 +1,91 @@
+.chatPage{
+    background-color: #ffb300; 
+    /*background-color: #03A062;  ===> metrix color*/
+    width: 100vw;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    background-color: #ece5dd;
+    width: 60%;   
+    height: 70%;
+}
+.header{
+    background-color: black;
+    height: 15%;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header>h2{
+    margin: 1.5vmax;
+    /* font-family: 'Freehand', cursive; */
+    font-family: 'aboreto', cursive;
+    /* font-family: 'Qwitcher Grypen', cursive;  */
+    /* font-family: 'Combo', cursive; */
+
+}
+.header>a>img{
+    margin: 2.5vmax;
+    transition: all 0.3s;   
+    height: 2.5vmax;  
+    /* filter: brightness(100) invert() contrast(200%); */
+    
+}
+.header>img:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+.chatBox{
+    /* border :0.2vmax solid black;  */
+    height: 75%;
+    box-sizing: border-box  ;
+    /* overflow-y:auto ; */
+
+}
+.inputBox{
+    /* border:0.2vmax solid black;  */
+    box-sizing: border-box  ;
+    height: 10%;
+    display: flex;
+}
+#chatInput{
+    background-color: white;
+    border: none;
+    padding: 1vmax;
+    box-sizing: border-box;
+    outline: none;
+    width: 80%;
+    font-family:'Oswald';
+}
+.sendBtn{
+    background-color: black;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    width: 21%;
+    font-size: 1.5vmax;
+    font-family: 'aboreto', cursive;
+    
+}
+.sendBtn:hover{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.sendBtn>img{
+    width: 3vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+.sendBtn:hover img{
+
+    transform: translate(10px);
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+}
+
+@media (max-aspect-ratio: 7/10) {
+
+    .Joinpage{
+        
+        width: 100vw;   
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+    .JoinContainer{
+        margin-top: 30vw !important;
+        width: 100% !important ;
+      /* border: 3px solid white; */
+    }
+    .JoinContainer > img {
+        width: 30vw !important;
+    }
+    .JoinContainer > h1{
+         font-size: 7vw !important;
+         width: 65vw !important;
+         border-bottom :0.3vmax solid white !important; 
+         padding: 5vw !important;   
+    }
+    #joinInput{
+        width: 65vw !important;
+        padding: 4vw !important;
+        font-size: 5vw !important;
+        margin: 5vw !important;
+    }
+    .joinbtn{
+        width: 65vw !important;
+        padding: 4vw !important;
+        font-size: 5vw !important;  
+    }
+
+    /* chat page */
+
+    .chatContainer{
+        background-color: #ece5dd;
+        width:100% !important;   
+        height:100% !important;
+    }
+    .header{
+        height: 10% !important;
+    }
+    .header>h2{
+        margin: 8vw !important;
+        font-size: 5vw !important;    
+    }
+    .header>a>img{
+        margin: 6vw !important;
+        transform: scale(2) !important;
+    }
+    .header>img:hover{
+        transform: scale(3.2) !important;
+    }
+    .chatBox{
+        height: 80% !important;
+    }
+    .inputBox{
+        height: 10% !important;
+    }
+    #chatInput{
+        padding: 4vw !important ;
+       font-size: 4vw !important ;
+    }
+    
+    /* message css */
+
+    .messageBox{
+       
+        /* width: 70% !important; */
+        margin: 3vw !important;
+        padding:3vw !important ;
+        border-radius: 1.5vw !important;
+        font-size: 4vw !important;
+    }
+    .right{
+        float: right;
+        background-color: #0c890372;
+        color: black;
+    }
+    .left{
+        float: left;
+        background-color: #6eee6678;
+        color: rgb(0, 0, 0);
+    }
+    
+}

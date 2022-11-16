@@ -1,0 +1,60 @@
+.Joinpage{
+   background-color: #ffb300;  
+    /*background-color: #03A062;  ===> metrix color*/
+    width: 100vw;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JoinContainer{
+    /* border: 3px solid white; */
+    width: 50%;   
+    /* height: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JoinContainer > img {
+    width: 12vmax;
+}
+.JoinContainer > h1{
+     color: black;
+     font-size: 3vmax;
+     width: 25 vmax;
+     border-bottom :0.2vmax solid white; 
+     text-align: center;
+     /* font-family: 'Qwitcher Grypen', cursive; */
+     font-family: 'aboreto', cursive;
+     padding: 1vmax;
+     box-sizing: border-box;
+}
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: 'aboreto', cursive;
+    margin: 2vmax;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: 'aboreto', cursive;
+    margin: 2vmax;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.joinbtn:hover{
+    color: white;
+    background-color: black;
+}

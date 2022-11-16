@@ -1,0 +1,26 @@
+.messageBox{
+    background-color: rgb(165, 153, 245);
+    padding: 1vmax;
+    margin: 1.8vmax;
+    border-radius: 1vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right{
+    float: right;
+    background-color: #0c890372;
+    color: black;
+    text-align: right;
+    border-radius: 15px 50px;
+}
+.left{
+    float: left;
+    /* background-color: #6eee6678; */
+    background-image: linear-gradient(to right, #C33764
+    , #1D2671);
+    color: white;
+    text-align: left;
+    border-radius: 15px 50px;
+}
