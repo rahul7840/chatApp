@@ -9,6 +9,7 @@
 }
 .chatContainer{
     background-color: #ece5dd;
+    background-color: black ;
     width: 60%;   
     height: 70%;
 }
@@ -27,6 +28,15 @@
     font-family: 'aboreto', cursive;
     /* font-family: 'Qwitcher Grypen', cursive;  */
     /* font-family: 'Combo', cursive; */
+    text-shadow:
+        0 0 7px #fff,
+        0 0 5px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
 
 }
 .header>a>img{
@@ -56,13 +66,15 @@
     display: flex;
 }
 #chatInput{
-    background-color: white;
+    background-color: #747171;
     border: none;
+    color: white;
     padding: 1vmax;
     box-sizing: border-box;
     outline: none;
     width: 80%;
-    font-family:'Oswald';
+   
+   
 }
 .sendBtn{
     background-color: black;
