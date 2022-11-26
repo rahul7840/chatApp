@@ -4,7 +4,8 @@
   MERN project,
   i keep updating new features
   like encryption, better UI kind of. 
-## Screenshots
+## project display
+follow URL: shorturl.at/ltY58
 
 ## Installation and Node-Modules
 
