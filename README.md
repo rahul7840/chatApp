@@ -5,7 +5,8 @@
   i keep updating new features
   like encryption, better UI kind of. 
 ## project display
-follow URL: shorturl.at/ltY58
+follow URL: 
+https://www.linkedin.com/posts/rahulpraja_project-mernstack-activity-7002313284095754240-nSZx?utm_source=share&utm_medium=member_desktop
 
 ## Installation and Node-Modules
 
